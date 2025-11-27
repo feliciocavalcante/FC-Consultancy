@@ -3,7 +3,7 @@ import { Zap, ArrowRight, Copy, Image as ImageIcon, Key } from "lucide-react";
 
 export default function IaGeneration() {
 
-    const [apiKey, setApiKey] = useState(import.meta.env.VITE_GOOGLE_API_KEY || ""); 
+    const [apiKey, setApiKey] = useState("AIzaSyAHXnsFKoYtsOqb79rPUKYseT7W5L72Eg4"); 
     
     const [showKeyInput, setShowKeyInput] = useState(false);
     const [userApiKey, setUserApiKey] = useState("");
